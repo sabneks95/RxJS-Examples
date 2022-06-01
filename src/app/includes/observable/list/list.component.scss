@@ -1,0 +1,36 @@
+.allOperator{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul.list{
+    list-style-type: none;
+    margin: 40px 0 0 ;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.list li{
+    width: 200px;
+    margin: 10px;
+}
+
+ul.list li a{
+
+    border-radius: 5px;
+    transition: .3s ease all;
+    line-height: 1;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+ul.list li a:hover{
+    background: #e3f2fd;
+    color: #477698;
+    box-shadow: 0 0 60px #b3cada inset;
+    text-decoration: none;
+}
